@@ -19,7 +19,7 @@ const port = process.env.PORT;
 
 // Cors setup
 const corsOptions = {
-  origin: `http://localhost:${port}`,
+  origin: `*`,
   optionSucessStatus: 200,
 };
 
