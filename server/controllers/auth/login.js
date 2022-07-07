@@ -35,9 +35,7 @@ const loginUser = async (req, res) => {
           { expiresIn: "1d" }
         ); // If time will allow, prepare token refreshing
         res.cookie("accessToken", token, { httpOnly: true });
-        console.log(token);
-        res.send(token);
-        // res.redirect('/user');
+        res.redirect("http://localhost:3000/blogs");
       } else
         return res.status(400).send({ err: "Incorrect username or password." });
     };
