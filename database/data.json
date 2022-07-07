@@ -1,0 +1,26 @@
+{
+  "userInfo": [
+    {
+      "id": "1",
+      "email": "k@k.com",
+      "userName": "kaz123",
+      "password": "sas123",
+      "timeStamp": "2022-07-07"
+    },
+    {
+      "id": "73e35ea9-651e-4e33-8717-65f8564c8965",
+      "email": "test@test.com",
+      "username": "testingUserName",
+      "password": "$2a$05$oEjSDGw4D3OBTpycM.E7heQEbhVhbv0tdPrDDv0bvtV/kz9oi2CuC",
+      "timeStamp": "2022-07-07 09:29:32"
+    }
+  ],
+  "blogs": [
+    {
+      "id": "1",
+      "userId": "1",
+      "blogTitle": "Apie rudeni",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka"
+    }
+  ]
+}
