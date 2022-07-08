@@ -7,6 +7,7 @@ import "../../assets/styles/pages/NewBlog.css";
 
 // React module imports
 import axios from "axios";
+import Footer from "../Footer";
 
 const NewBlog = () => {
   const newBlog = (e) => {

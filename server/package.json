@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "nodemon",
-    "start": "node app.js"
+    "start": "node app.js",
+    "db": "json-server --watch ../database/data.json --port 8000"
   },
   "type": "module",
   "repository": {

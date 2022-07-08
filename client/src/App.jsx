@@ -6,6 +6,7 @@ import Blog from "./components/pages/Blog";
 // Router imports
 import { Routes, Route } from "react-router-dom";
 import NewBlog from "./components/pages/NewBlog";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/newBlog" element={<NewBlog />} />
         <Route path="/blogs" element={<Blogs />} />
       </Routes>
+      <Footer />
     </>
   );
 }

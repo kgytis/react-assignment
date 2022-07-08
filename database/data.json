@@ -20,11 +20,36 @@
       "username": "Testing111",
       "password": "$2a$05$tbrJdV4wKAE9J7DmFYNMWuGx1.JICUiiXCKFZqzxsf/Vm2E4Qc3Qa",
       "timeStamp": "2022-07-07 15:20:03"
+    },
+    {
+      "id": "46ab9446-30bf-4861-ba8b-e451b5199c9f",
+      "email": "la@la.com",
+      "username": "Labas123",
+      "password": "$2a$05$pc.95C5emLu1DMQP2AGuEesklbVnIgTWBWGjaqeD.tgIo1b8AYiqe",
+      "timeStamp": "2022-07-08 16:04:07"
     }
   ],
   "blogs": [
     {
       "id": "1",
+      "blogTitle": "Apie rudeni",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://img.freepik.com/premium-photo/autumn-korea-maple-tree-park-naejangsan-national-park-autumn-season-south-korea_174052-16.jpg?w=2000"
+    },
+    {
+      "id": "10",
+      "blogTitle": "Apie rudeni",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://img.freepik.com/premium-photo/autumn-korea-maple-tree-park-naejangsan-national-park-autumn-season-south-korea_174052-16.jpg?w=2000"
+    },
+    {
+      "id": "11",
+      "blogTitle": "Apie rudeni",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://img.freepik.com/premium-photo/autumn-korea-maple-tree-park-naejangsan-national-park-autumn-season-south-korea_174052-16.jpg?w=2000"
+    },
+    {
+      "id": "12",
       "blogTitle": "Apie rudeni",
       "blogDescription": "Kazkoks tekstas apie nuotrauka",
       "imageURL": "https://img.freepik.com/premium-photo/autumn-korea-maple-tree-park-naejangsan-national-park-autumn-season-south-korea_174052-16.jpg?w=2000"
@@ -71,6 +96,13 @@
       "blogDescription": "Blog about painful memes!",
       "imageURL": "https://cdn.vox-cdn.com/thumbor/cV8X8BZ-aGs8pv3D-sCMr5fQZyI=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19933026/image.png",
       "timeStamp": "2022-07-08 11:21:08"
+    },
+    {
+      "id": "fc1d9235-1c5a-40b8-a541-6623bc67afbe",
+      "blogTitle": "Blogas",
+      "blogDescription": "Dar vienas blogas",
+      "imageURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJbhsQPo0bkUTm0jDsLeN2ua3qRaeSuuMKiw&usqp=CAU",
+      "timeStamp": "2022-07-08 16:01:17"
     }
   ]
 }

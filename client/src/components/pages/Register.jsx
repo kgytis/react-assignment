@@ -26,7 +26,7 @@ const Register = () => {
       });
   };
   return (
-    <section>
+    <section className="register-section">
       <div className="register">
         <Box
           component="form"
