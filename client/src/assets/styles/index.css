@@ -1,0 +1,17 @@
+@import-normalize;
+
+* {
+  font-family: "Anek Malayalam", sans-serif;
+  font-family: "Epilogue", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 98vh;
+}
