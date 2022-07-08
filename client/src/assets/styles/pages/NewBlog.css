@@ -1,0 +1,33 @@
+.blog-area {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.text-field-input {
+  margin: 5px 0;
+  width: 100%;
+  height: 90%;
+}
+.newBlog h1 {
+  text-align: center;
+}
+
+.newBlog {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  height: 38vh;
+  width: 25%;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: rgba(49, 99, 173, 0.7);
+}
