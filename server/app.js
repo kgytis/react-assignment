@@ -19,7 +19,7 @@ const port = process.env.PORT;
 
 // Cors setup
 const corsOptions = {
-  origin: ["http://localhost:3000"],
+  origin: "http://localhost:3000",
   methods: ["GET", "POST"],
   optionSucessStatus: 200,
 };
@@ -29,6 +29,7 @@ app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Additional parameters due to CORS issues
 app.use(function (req, res, next) {
   res.header("Content-Type", "application/json;charset=UTF-8");
   res.header("Access-Control-Allow-Credentials", true);
