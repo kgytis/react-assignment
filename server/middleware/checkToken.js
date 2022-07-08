@@ -1,7 +1,6 @@
 import jwt from "jsonwebtoken";
 
 const checkToken = async (req, res, next) => {
-  console.log(req.cookies);
   const token = req.cookies.accessToken;
   if (!token) {
     return res.status(403).redirect("http://localhost:3000/login");
