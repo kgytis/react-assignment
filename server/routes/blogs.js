@@ -1,7 +1,7 @@
 import express from "express";
 
 //Controllers imports
-import { allBlogs, blogByID } from "../controllers/API/blogs.js";
+import { allBlogs, blogByID, newBlog } from "../controllers/API/blogs.js";
 
 // Checktoken import
 import checkToken from "../middleware/checkToken.js";
@@ -9,6 +9,7 @@ import checkToken from "../middleware/checkToken.js";
 const apiBlogsRouter = express.Router();
 
 apiBlogsRouter.get("/blogs", checkToken, allBlogs);
-apiBlogsRouter.get("/blogs/:id", checkToken, blogByID);
+apiBlogsRouter.get("/blog/:id", checkToken, blogByID);
+apiBlogsRouter.post("/blog", checkToken, newBlog);
 
 export default apiBlogsRouter;
