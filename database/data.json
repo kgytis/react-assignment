@@ -13,20 +13,64 @@
       "username": "testingUserName",
       "password": "$2a$05$oEjSDGw4D3OBTpycM.E7heQEbhVhbv0tdPrDDv0bvtV/kz9oi2CuC",
       "timeStamp": "2022-07-07 09:29:32"
+    },
+    {
+      "id": "517ab84d-11a6-4099-af98-d2c8b9a272d4",
+      "email": "example@example.com",
+      "username": "Testing111",
+      "password": "$2a$05$tbrJdV4wKAE9J7DmFYNMWuGx1.JICUiiXCKFZqzxsf/Vm2E4Qc3Qa",
+      "timeStamp": "2022-07-07 15:20:03"
     }
   ],
   "blogs": [
     {
       "id": "1",
-      "userId": "1",
       "blogTitle": "Apie rudeni",
-      "blogDescription": "Kazkoks tekstas apie nuotrauka"
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://img.freepik.com/premium-photo/autumn-korea-maple-tree-park-naejangsan-national-park-autumn-season-south-korea_174052-16.jpg?w=2000"
     },
     {
       "id": "2",
-      "userId": "1",
       "blogTitle": "Apie ziema",
-      "blogDescription": "Kazkoks tekstas apie nuotrauka"
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://cdn.goturkiye.com/goturkey/winter-desktop-autmn-original.jpg"
+    },
+    {
+      "id": "3",
+      "blogTitle": "Apie ziema",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://cdn.goturkiye.com/goturkey/winter-desktop-autmn-original.jpg"
+    },
+    {
+      "id": "4",
+      "blogTitle": "Apie ziema",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://cdn.goturkiye.com/goturkey/winter-desktop-autmn-original.jpg"
+    },
+    {
+      "id": "5",
+      "blogTitle": "Apie ziema",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://cdn.goturkiye.com/goturkey/winter-desktop-autmn-original.jpg"
+    },
+    {
+      "id": "6",
+      "blogTitle": "Apie ziema",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://cdn.goturkiye.com/goturkey/winter-desktop-autmn-original.jpg"
+    },
+    {
+      "id": "7",
+      "blogTitle": "Apie ziema",
+      "blogDescription": "Kazkoks tekstas apie nuotrauka",
+      "imageURL": "https://cdn.goturkiye.com/goturkey/winter-desktop-autmn-original.jpg"
+    },
+    {
+      "id": "5341cfea-871b-4ae9-afbe-feaf9b7206c7",
+      "blogTitle": "Memes",
+      "blogDescription": "Blog about painful memes!",
+      "imageURL": "https://cdn.vox-cdn.com/thumbor/cV8X8BZ-aGs8pv3D-sCMr5fQZyI=/1400x1400/filters:format(png)/cdn.vox-cdn.com/uploads/chorus_asset/file/19933026/image.png",
+      "timeStamp": "2022-07-08 11:21:08"
     }
   ]
 }
