@@ -19,11 +19,11 @@ const loginValidation = async (req, res, next) => {
       };
       const valid = validate(data);
       if (!valid)
-        // if some of the information will not match the written schema -> error will be send. For further development -> remain in the same page and indicate, that some of the information is not validated (depending on error)
+        // if some of the information will not match the written schema -> error will be send
         return res.status(400).send({ msg: validate.errors });
     }
   } catch (err) {
-    return res.status(400).send({ msg: err }); // If there will be time, create error handling separate page
+    return res.status(400).send({ msg: err });
   }
   next();
 };

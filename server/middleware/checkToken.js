@@ -4,16 +4,11 @@ const checkToken = async (req, res, next) => {
   console.log(req.cookies);
   const token = req.cookies.accessToken;
   if (!token) {
-    return res
-      .status(403)
-      .send(
-        "You are not logged in or you have been logged out, please log in again."
-      ); // Redirect could be added
+    return res.status(403).redirect("http://localhost:3000/login");
   }
   try {
     jwt.verify(token, process.env.JWTSECRET, (err, result) => {
       void (err && res.status(403).send({ msg: "Access denied" })); // Ternary clause will not return else statement
-      // if(err) return res.status(403).send({msg : 'Access denied'});
       req.userID = result.id;
       req.email = result.email;
       req.username = result.username;

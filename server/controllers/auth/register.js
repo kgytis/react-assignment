@@ -20,7 +20,7 @@ const newUser = async (req, res) => {
         timeStamp: registerTime,
       })
       .then(() => {
-        res.send("Succesfully registered!");
+        res.redirect("http://localhost:3000/login");
       })
       .catch((err) => {
         res.status(400).send({ msg: err });

@@ -20,10 +20,10 @@ const loginUser = async (req, res) => {
 
     // Password checking (user input vs DB info)
     const loginCheck = async (data) => {
-      const match = await bcrypt.compare(req.body.password, data[0].password); // cia reik ideti tai, ka paget'inu is json
+      const match = await bcrypt.compare(req.body.password, data[0].password);
       // Token creation
       if (match) {
-        // If user input matched with DB info, JWT token created
+        // If user input matched with JSON-SERVER info, JWT token created
         const token = jwt.sign(
           {
             // what information is stored within JWT
@@ -33,8 +33,9 @@ const loginUser = async (req, res) => {
           },
           process.env.JWTSECRET,
           { expiresIn: "1d" }
-        ); // If time will allow, prepare token refreshing
-        res.cookie("accessToken", token, { httpOnly: true });
+        );
+        res.cookie("accessToken", token);
+        res.status(200);
         res.redirect("http://localhost:3000/blogs");
       } else
         return res.status(400).send({ err: "Incorrect username or password." });
